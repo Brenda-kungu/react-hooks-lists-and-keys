@@ -1,5 +1,222 @@
 import React from "react";
 
+
+function Colorlist(){
+  const colors = ["firebrick", "rebecapurple", "salmon", "darkslategray", "hotpink", "brown", "black", "orange"];
+
+
+  const colorElements = colors.map((color) =>{
+    return <ColorItem key={color} color={color}/>
+  });
+  return (
+    <div>
+      <h1>Top 5 css colors</h1>
+      <ol>
+        {/*array of <li> elements */}
+        <li  style= {{color: colors[3]}}>{colors[3]}</li>
+        <li style= {{color: colors[2]}}>{colors[2]}</li>
+        {colorElements}
+      </ol>
+    </div>
+  )
+}
+
+export default Colorlist;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function ColorList() {
   const colors = [
     "firebrick",
@@ -24,3 +241,4 @@ function ColorList() {
 }
 
 export default ColorList;
+*/
